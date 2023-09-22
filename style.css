@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-    margin: 20px auto;
-    width: 90%;
+    margin: 40px auto;
+    width: max(50vw, 400px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,7 +43,7 @@ body {
 .bounding-box {
     position: absolute;
     box-sizing: border-box;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
 }
 

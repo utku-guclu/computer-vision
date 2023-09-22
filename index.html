@@ -10,12 +10,14 @@
 
 <body>
     <main class="container">
-        <div id="image-container">
-            <img src="street.jpg" id="target-img">        
-        </div>
+        <label class="custom-file-upload">
+            <input id="file-upload" type="file" accept="image/*" />
+            <img class="upload-icon" src="https://huggingface.co/datasets/Xenova/transformers.js-docs/resolve/main/upload-icon.png" />
+            Upload image
+        </label>
+        <div id="image-container"></div>
         <p id="status"></p>
     </main>
-    <script src='https://cdn.jsdelivr.net/npm/@xenova/transformers@2.6.0/dist/transformers.min.js' type="module"></script>
     <script src="./index.js" type="module"></script>
 </body>
 
