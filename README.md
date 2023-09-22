@@ -1,1 +1,1 @@
-# computer-vision
+# Object Detection App
